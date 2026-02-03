@@ -32,6 +32,14 @@ public class VesselUtil {
 
         return result;
     }
+    public List<Vessel> getVesselList() {
+        return vesselList;
+    }
+
+    public void setVesselList(List<Vessel> vesselList) {
+        this.vesselList = vesselList;
+    }
+
 
 
 }
